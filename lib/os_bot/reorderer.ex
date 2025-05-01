@@ -2,6 +2,8 @@ defmodule OsBot.Reorderer do
   # Reorders OH-Queue on events like moving a student to OH slot,
   # Students leaving the OH-Queue, or random disconnects and time-outs
 
+  use Agent
+
   alias OsBot.QueueTracker
   require Logger
 
