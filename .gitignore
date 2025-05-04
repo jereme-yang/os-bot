@@ -21,3 +21,7 @@ os_bot-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+
+# environment variables
+.env

@@ -7,4 +7,4 @@ COPY . .
 RUN mix deps.get
 RUN mix compile
 
-CMD ["iex", "-S", "mix"]
+CMD ["mix", "run", "--no-halt"]

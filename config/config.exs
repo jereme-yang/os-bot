@@ -1,5 +1,5 @@
 import Config
 
 config :nostrum,
-  token: "MTM2NjgwODQ0NjY5NTExNjk2MA.G9IZ8x.-O5-QkmZKauw2VhnkHNk5cP2OmtP36tf7brIvU",
+  token: System.get_env("DISCORD_TOKEN")
   gateway_intents: :all
