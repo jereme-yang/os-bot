@@ -2,6 +2,9 @@
 
 **OsBot** is a Discord bot designed to streamline Office Hours (OH) queue management. It automates nickname assignment and removal for students joining or leaving the queue, streamlining the process for both students and TAs.
 
+## Demo
+[youtube link to demo](https://youtu.be/5ynC4d2BbdI)
+
 ## Features
 
 - Automatically updates student nicknames to indicate queue order. makes it easier to know how many people in queue
