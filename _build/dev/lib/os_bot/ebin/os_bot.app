@@ -1,9 +1,0 @@
-{application,os_bot,
-             [{modules,['Elixir.OsBot.Application','Elixir.OsBot.Consumer',
-                        'Elixir.OsBot.QueueTracker','Elixir.OsBot.Reorderer']},
-              {optional_applications,[nostrum]},
-              {applications,[kernel,stdlib,elixir,logger,nostrum]},
-              {description,"os_bot"},
-              {registered,[]},
-              {vsn,"0.1.0"},
-              {mod,{'Elixir.OsBot.Application',[]}}]}.
