@@ -1,9 +1,9 @@
-
+/_build/
 
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
 
-
+/deps/
 
 # Where third-party dependencies like ExDoc output generated docs.
 /doc/
